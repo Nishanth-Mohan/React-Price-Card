@@ -1,11 +1,13 @@
 import './App.css';
 import Card from "./Card";
-import "bootstrap/dist/css/bootstrap.min.css";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 
 
 function App() {
   return (
+    
     <div className='container'>
       <h1 className='text-center'>React Price Card</h1>
       <div className='row'>
